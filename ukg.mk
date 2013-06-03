@@ -38,7 +38,7 @@ PRODUCT_MODEL := GT-I9000
 # hybrid
 PRODUCT_COPY_FILES +=  \
     vendor/ukg/prebuilt/hybrid_hdpi.conf:system/etc/beerbong/properties.conf \
-    vendor/aosp/prebuilt/bootanimation/bootanimation.zip:system/media/bootanimation.zip
+    vendor/ukg/prebuilt/common/media/bootanimation.zip:system/media/bootanimation.zip
 
 # Set build fingerprint / ID / Prduct Name ect.
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=GT-I9000 TARGET_DEVICE=GT-I9000 BUILD_FINGERPRINT=samsung/GT-I9000/GT-I9000:2.3.5/GINGERBREAD/XXJVT:user/release-keys PRIVATE_BUILD_DESC="GT-I9000-user 2.3.5 GINGERBREAD XXJVT release-keys"
